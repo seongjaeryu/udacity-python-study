@@ -1,0 +1,32 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = vgg 
+ dogfile = dognames.txt
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+
+
+*** Results Summary for CNN Model Architecture VGG ***
+N Images            :   4
+N Dog Images        :   2
+
+Number of Not Dog Images:  2
+
+
+*** Results Summary (Percentages) for CNN Model Architecture VGG ***
+pct_match: 25.0
+pct_correct_dogs: 100.0
+pct_correct_breed: 0.0
+pct_correct_notdogs: 100.0
+
+INCORRECT Dog Breed Assignment:
+Real:                        dog   Classifier:               golden retriever
+Real:                        dog   Classifier:               golden retriever
+
+** Total Elapsed Runtime: 0:0:3
